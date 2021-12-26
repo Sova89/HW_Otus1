@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testing.org/testing-1.0.dtd">
+
+<suite name = "somename">
+    <listener>
+        <listener class-name="Listeners.TestNgListener"></listener>
+    </listener>
+    <test name="test1">
+
+        <packages>
+            <package name = "Listeners"></package>
+        </packages>
+    </test>
+</suite>
